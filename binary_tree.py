@@ -20,8 +20,8 @@ class BinaryTree:
 
     def insert_recursive(self, node, data):
 
-        if node is None:
-            return node(data)
+        # if node is None:
+        #     return node(data)
 
         if data < node.data:
             if node.left is None:
